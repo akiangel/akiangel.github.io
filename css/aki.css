@@ -1,6 +1,7 @@
 body {
     background-color: #FCF6FB;
     overflow: hidden;
+    font-family: 'Raleway', sans-serif;
 }
 
 .scaling-image {
@@ -13,6 +14,33 @@ body {
     align-items:center;
     height: 100vh;
     width: 100vw;
+    z-index: 1;
+}
+
+.credits {
+    color: #A2888C;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 10px;
+    z-index: 2;
+}
+
+@media screen and (min-width: 401px) {
+    .credits a:link, a:visited {
+        font-size: 20pt;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .credits a:link, a:visited {
+        font-size: 26pt;
+    }
+}
+.credits a:link, a:visited {
+    color: #A2888C;
+    text-decoration: none;
 }
 
 :root {
