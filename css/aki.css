@@ -1,0 +1,20 @@
+body {
+    background-color: #FCF6FB;
+    overflow: hidden;
+}
+
+.scaling-image {
+    max-width: 90vw;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    width: 100vw;
+}
+
+:root {
+    --animate-duration: 5000ms !important;
+}
